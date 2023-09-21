@@ -151,14 +151,15 @@ Next.js MongoDB 애플리케이션을 로컬에서 개발하고 실행하려면 
   - _services
     - useUserService.ts
   - (public)
-    - login/page.tsx
-    - register/page.tsx
-  - (private)
+    - account/login/page.tsx
+    - account/register/page.tsx
+  - (secure)
     - page.tsx
-  - account
-    - login/route.ts
-    - logout/route.ts
-    - register/route.ts
+  - api
+    - account
+      - login/route.ts
+      - logout/route.ts
+      - register/route.ts
     - users
       - route.ts
       - [id]/route.ts
